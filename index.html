@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style1.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <img class="logo" src="./Img's/logo.png" alt="Logo" id="logo" />
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h1 class="title">Shopping Cart</h1>
+    <div id="cart">
+      <div class="item">
+        <img src="./Img's/1.jpg" alt="" />
+        <h2>Item 1</h2>
+        <p>Price: $10.00</p>
+        <button class="like">❤</button>
+        <button class="minus">-</button>
+        <span class="quantity">0</span>
+        <button class="plus">+</button>
+        <button class="delete">Delete</button>
+      </div>
+      <div class="item">
+        <img src="./Img's/2.jpg" alt="" />
+        <h2>Item 2</h2>
+        <p>Price: $20.00</p>
+        <button class="like">❤</button>
+        <button class="minus">-</button>
+        <span class="quantity">0</span>
+        <button class="plus">+</button>
+        <button class="delete">Delete</button>
+      </div>
+      <div class="item">
+        <img src="./Img's/3.jpg" alt="" />
+        <h2>Item 3</h2>
+        <p>Price: $30.00</p>
+        <button class="like">❤</button>
+        <button class="minus">-</button>
+        <span class="quantity">0</span>
+        <button class="plus">+</button>
+        <button class="delete">Delete</button>
+      </div>
+    </div>
+    <p>Total: $<span id="total">0.00</span></p>
+  </body>
+</html>
